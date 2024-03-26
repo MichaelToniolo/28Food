@@ -1,6 +1,6 @@
 /* O CORPO COMPLETO DA PÁGINA */
 body{
-    background-color:  #efb79e;
+    background-color:  #eed2c5;
     padding: 0px;
     margin: 0px;
 }
@@ -70,8 +70,8 @@ body{
     height: 30px;
     border-radius: 20px;
     border: solid whitesmoke 3px;
-    background-color: #f0d6ca;
-    color: whitesmoke;
+    background-color: #faf5f3;
+    color: #1e7387;
 }
 .pesquisa ::placeholder{
     color: rgb(181, 181, 181)
@@ -83,7 +83,7 @@ body{
     justify-content: center;
     margin-left: 10px;
     border-radius: 20px;
-    background-color: #3e7f8d;
+    background-color: #50838f;
     color: whitesmoke;
     border: #3e7f8d 3px solid;
     background-image: url("../icons/icons8-search-50.png");
@@ -97,10 +97,79 @@ body{
 .pesquisa input[type=submit]:hover{
     opacity: 0.7;
 }
+.pesquisa input[type=text]:focus{
+    outline: none;
+}
+
+/* TEXTO H1 */
+.a99{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: #3e7f8d;
+}
+
+/* TRATAMENTO DO SLIDESHOW */
+.mySlides{display: none;}
+
+.slideshow-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    max-width: auto;
+
+}
+
+.numbertext{
+    color: #3e7f8d;
+    font-size: 18px;
+    padding: 10px 10px;
+    position: absolute;
+    top: 0;
+}
+
+.text{
+    color: whitesmoke;
+    font-size: 22px;
+    padding: 10px 10px;
+    position: absolute;
+    bottom: 8px;
+    width: 100px;
+    text-align: center;
+}
+
+.dot{
+    height: 20px;
+    width: 20px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active{
+    background-color: grey;
+}
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+
+/* RECEITAS BOX */
+.container-receitas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 
 
-
-
+@keyframes fade{
+    from{opacity: 0.4;}
+    to {opacity: 1;}
+}
 
 @import url('https://fonts.cdnfonts.com/css/curely');
