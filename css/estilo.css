@@ -173,26 +173,6 @@ h1{
 .container-receitas{
     display: flex;
     justify-content: space-around;
-<<<<<<< Updated upstream
-    align-items: center;
-    padding: 10px;
-
-}
-
-.receita-imagem{
-    border-radius: 20px;
-}
-
-.receitabox:hover{
-    opacity: 0.7;
-}
-
-.overlay{
-    font-size: 28px;
-    color: #1e7387;
-
-
-=======
     /* NOVIDADE */
     font-size: 25px;
     color: #1e7387;
@@ -211,7 +191,6 @@ h1{
     height: 300px;
     width: auto;
     background-color: #1e7387;
->>>>>>> Stashed changes
 }
 
 
