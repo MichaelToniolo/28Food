@@ -163,6 +163,23 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 10px;
+
+}
+
+.receita-imagem{
+    border-radius: 20px;
+}
+
+.receitabox:hover{
+    opacity: 0.7;
+}
+
+.overlay{
+    font-size: 28px;
+    color: #1e7387;
+
+
 }
 
 
