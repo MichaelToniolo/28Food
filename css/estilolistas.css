@@ -1,0 +1,23 @@
+
+/* TRATANDO IMAGENS NO CSS */
+.listareceitas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    margin-bottom: 80px;
+}
+
+.receitabox{
+    font-family: 'Courier New', Courier, monospace;
+    color: #1e7387;
+    font-size: 18px;
+    width: 300px;
+    padding: 30px;
+}
+
+.lista-imagem{
+    border-radius: 30px;
+}
+

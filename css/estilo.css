@@ -19,10 +19,9 @@ body{
 .menu{
     display: flex;
     margin-top: 25px;
-    align-items: center;
     justify-content: center;
     width: 100%;
-    height: 30px;
+    height: 60px;
     font-family: Curely, sans-serif;
     font-size: 30px;
     
@@ -121,6 +120,10 @@ h1{
     max-width: auto;
 
 }
+.slideimg{
+    border-radius: 20px;
+}
+
 
 .numbertext{
     color: #3e7f8d;
@@ -156,12 +159,21 @@ h1{
     animation-name: fade;
     animation-duration: 1.5s;
 }
+/* AQUI ESCREVO QUALQUER COISA */
+.texto-receitas{
+    font-family: Curely;
+    font-size: 40px;
+    color: #1e7387;
+    text-align: center;
+
+}
 
 
 /* RECEITAS BOX */
 .container-receitas{
     display: flex;
     justify-content: space-around;
+<<<<<<< Updated upstream
     align-items: center;
     padding: 10px;
 
@@ -180,6 +192,26 @@ h1{
     color: #1e7387;
 
 
+=======
+    /* NOVIDADE */
+    font-size: 25px;
+    color: #1e7387;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 80px;
+}
+.receita-imagem{
+    border-radius: 100%;
+}
+
+
+/* RODAPÉ PAGINA */
+.rodape{
+    height: 300px;
+    width: auto;
+    background-color: #1e7387;
+>>>>>>> Stashed changes
 }
 
 
