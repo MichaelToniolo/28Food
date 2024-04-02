@@ -193,6 +193,32 @@ h1{
     background-color: #1e7387;
 }
 
+/* TRATAMENTO DE RODAPÉ */
+.rodape-container{
+    display: flex;
+    align-items: start;
+    margin-left: 10px;
+    font-size: medium;
+}
+
+.rodape{
+    font-size: 22px;
+    color: beige;
+    display: flex;
+    justify-content: left;
+    
+}
+
+.rodape text{
+    float: right;
+    margin-top: 250px;
+}
+.rodape a{
+    align-content: center;
+    font-size: 22px;
+    color: #f5dbd7;
+    text-decoration: none;
+}
 
 
 @keyframes fade{

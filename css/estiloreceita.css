@@ -1,0 +1,15 @@
+.preparo{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    font-size: 22px;
+    color: #1e7387;
+}
+.preparo:hover{
+    opacity: 0.7;
+}
+
+#checkbox{
+    background-color: #1e7387;
+    width: 30px;
+    height: 30px;
+}
