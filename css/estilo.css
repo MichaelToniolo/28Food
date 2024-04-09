@@ -196,11 +196,19 @@ h1{
 /* TRATAMENTO DE RODAPÉ */
 .rodape-container{
     display: flex;
-    align-items: start;
+    align-items: center;
+    float: left;
     margin-left: 10px;
     font-size: medium;
+    margin-left: 20%;
+
 }
 
+.map h1, p{
+    color: beige;
+    display: flex;
+    align-content: center;
+}
 .rodape{
     font-size: 22px;
     color: beige;
@@ -210,7 +218,6 @@ h1{
 }
 
 .rodape text{
-    float: right;
     margin-top: 250px;
 }
 .rodape a{
